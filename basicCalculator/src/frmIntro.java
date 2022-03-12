@@ -174,7 +174,7 @@ public class frmIntro extends javax.swing.JFrame {
         int result = first + second;
         lblResult.setText("Result: "+result);
         }catch(Exception e){
-            lblError.setText("Hatalı giriş");
+            lblError.setText("Invalid Value");
             System.out.println(e.getMessage());
             
         }
@@ -193,7 +193,7 @@ public class frmIntro extends javax.swing.JFrame {
         int result = first - second;
         lblResult.setText("Result: "+result);
        }catch(Exception e){
-           lblError.setText("Hatalı giriş");
+           lblError.setText("Invalid Value");
            System.out.println(e.getMessage());
            
        }
@@ -211,7 +211,7 @@ public class frmIntro extends javax.swing.JFrame {
         double result = first * second;
         lblResult.setText("Result: "+result);
        }catch(Exception e){
-           lblError.setText("Hatalı giriş");
+           lblError.setText("Invalid Value");
            System.out.println(e.getMessage());
            
        }
@@ -230,7 +230,7 @@ public class frmIntro extends javax.swing.JFrame {
         double result = first / second;
         lblResult.setText("Result: "+result);
        }catch(Exception e){
-           lblError.setText("Hatalı giriş");
+           lblError.setText("Invalid Value");
            System.out.println(e.getMessage());
            
        }
